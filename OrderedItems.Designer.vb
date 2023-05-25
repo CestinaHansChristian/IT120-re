@@ -22,6 +22,7 @@ Partial Class Form_orderItems
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_orderItems))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.oi_table = New System.Windows.Forms.DataGridView()
         Me.btn_suppl = New System.Windows.Forms.Button()
@@ -44,7 +45,7 @@ Partial Class Form_orderItems
         Me.Label9 = New System.Windows.Forms.Label()
         Me.oi_update_DatePicker = New System.Windows.Forms.DateTimePicker()
         Me.oi_update_ProdID = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.oi_update_prodI_ID = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.oi_update_TotalAmnt = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
@@ -268,12 +269,12 @@ Partial Class Form_orderItems
         Me.oi_update_ProdID.TabIndex = 26
         Me.oi_update_ProdID.Text = "Product ID"
         '
-        'TextBox4
+        'oi_update_prodI_ID
         '
-        Me.TextBox4.Location = New System.Drawing.Point(169, 404)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox4.TabIndex = 25
+        Me.oi_update_prodI_ID.Location = New System.Drawing.Point(169, 404)
+        Me.oi_update_prodI_ID.Name = "oi_update_prodI_ID"
+        Me.oi_update_prodI_ID.Size = New System.Drawing.Size(100, 22)
+        Me.oi_update_prodI_ID.TabIndex = 25
         '
         'Label11
         '
@@ -418,7 +419,7 @@ Partial Class Form_orderItems
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.oi_update_DatePicker)
         Me.Controls.Add(Me.oi_update_ProdID)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.oi_update_prodI_ID)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.oi_update_TotalAmnt)
         Me.Controls.Add(Me.Label12)
@@ -445,6 +446,7 @@ Partial Class Form_orderItems
         Me.Controls.Add(Me.oi_table)
         Me.Controls.Add(Me.Label1)
         Me.HelpButton = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form_orderItems"
@@ -478,7 +480,7 @@ Partial Class Form_orderItems
     Friend WithEvents Label9 As Label
     Friend WithEvents oi_update_DatePicker As DateTimePicker
     Friend WithEvents oi_update_ProdID As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents oi_update_prodI_ID As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents oi_update_TotalAmnt As TextBox
     Friend WithEvents Label12 As Label

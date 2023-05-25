@@ -22,6 +22,7 @@ Partial Class Form_products
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_products))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btn_prod = New System.Windows.Forms.Button()
         Me.btn_suppl = New System.Windows.Forms.Button()
@@ -117,6 +118,7 @@ Partial Class Form_products
         Me.Controls.Add(Me.btn_prod)
         Me.Controls.Add(Me.Label1)
         Me.HelpButton = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form_products"

@@ -56,7 +56,7 @@ Public Class Form_orderItems
     Private Sub btn_io_update_Click(sender As Object, e As EventArgs) Handles btn_io_update.Click
         openDB()
         Try
-            Dim sqlquery As String = " UPDATE orderItems set Quantity = '" & oi_update_qty.Text & "', Prod_price = '" & oi_update_ProdPrice.Text & "', Total_amount = '" & oi_update_TotalAmnt.Text & "', Prod_id = '" & oi_update_ProdID.Text & "' , Todays_date = '" & oi_update_DatePicker.Text & "' WHERE id = '" & oi_update_ID.Text & "' "
+            Dim sqlquery As String = " UPDATE orderItems set Quantity = '" & oi_update_qty.Text & "', Prod_price = '" & oi_update_ProdPrice.Text & "', Total_amount = '" & oi_update_TotalAmnt.Text & "', Prod_id = '" & oi_update_prodI_ID.Text & "' , Todays_date = '" & oi_update_DatePicker.Text & "' WHERE id = '" & oi_update_ID.Text & "' "
             sqlcommand = New MySqlCommand(sqlquery, myconn)
             sqlcommand.ExecuteNonQuery()
             MsgBox("15% vat added", MsgBoxStyle.Exclamation, "System Information")
