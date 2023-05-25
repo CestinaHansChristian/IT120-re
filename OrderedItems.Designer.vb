@@ -134,7 +134,7 @@ Partial Class Form_orderItems
         '
         'oi_insert_qty
         '
-        Me.oi_insert_qty.Location = New System.Drawing.Point(681, 216)
+        Me.oi_insert_qty.Location = New System.Drawing.Point(681, 223)
         Me.oi_insert_qty.Name = "oi_insert_qty"
         Me.oi_insert_qty.Size = New System.Drawing.Size(100, 22)
         Me.oi_insert_qty.TabIndex = 7
@@ -163,7 +163,7 @@ Partial Class Form_orderItems
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(575, 209)
+        Me.Label4.Location = New System.Drawing.Point(553, 216)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(100, 29)
         Me.Label4.TabIndex = 10
@@ -173,7 +173,7 @@ Partial Class Form_orderItems
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(517, 251)
+        Me.Label5.Location = New System.Drawing.Point(495, 258)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(158, 29)
         Me.Label5.TabIndex = 12
@@ -181,7 +181,7 @@ Partial Class Form_orderItems
         '
         'oi_insert_ProdPrice
         '
-        Me.oi_insert_ProdPrice.Location = New System.Drawing.Point(681, 258)
+        Me.oi_insert_ProdPrice.Location = New System.Drawing.Point(681, 265)
         Me.oi_insert_ProdPrice.Name = "oi_insert_ProdPrice"
         Me.oi_insert_ProdPrice.Size = New System.Drawing.Size(100, 22)
         Me.oi_insert_ProdPrice.TabIndex = 11
@@ -190,7 +190,7 @@ Partial Class Form_orderItems
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(517, 294)
+        Me.Label6.Location = New System.Drawing.Point(498, 301)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(155, 29)
         Me.Label6.TabIndex = 14
@@ -198,7 +198,7 @@ Partial Class Form_orderItems
         '
         'oi_insert_TAmount
         '
-        Me.oi_insert_TAmount.Location = New System.Drawing.Point(681, 301)
+        Me.oi_insert_TAmount.Location = New System.Drawing.Point(681, 308)
         Me.oi_insert_TAmount.Name = "oi_insert_TAmount"
         Me.oi_insert_TAmount.Size = New System.Drawing.Size(100, 22)
         Me.oi_insert_TAmount.TabIndex = 13
@@ -207,15 +207,15 @@ Partial Class Form_orderItems
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(575, 362)
+        Me.Label7.Location = New System.Drawing.Point(528, 388)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 29)
+        Me.Label7.Size = New System.Drawing.Size(125, 29)
         Me.Label7.TabIndex = 16
-        Me.Label7.Text = "Quantity"
+        Me.Label7.Text = "Product ID"
         '
         'oi_insert_ProdID
         '
-        Me.oi_insert_ProdID.Location = New System.Drawing.Point(681, 369)
+        Me.oi_insert_ProdID.Location = New System.Drawing.Point(681, 388)
         Me.oi_insert_ProdID.Name = "oi_insert_ProdID"
         Me.oi_insert_ProdID.Size = New System.Drawing.Size(100, 22)
         Me.oi_insert_ProdID.TabIndex = 15
@@ -224,7 +224,7 @@ Partial Class Form_orderItems
         '
         Me.insert_dated_picker.CustomFormat = "yyyy-MM-dd"
         Me.insert_dated_picker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.insert_dated_picker.Location = New System.Drawing.Point(681, 337)
+        Me.insert_dated_picker.Location = New System.Drawing.Point(681, 348)
         Me.insert_dated_picker.Name = "insert_dated_picker"
         Me.insert_dated_picker.Size = New System.Drawing.Size(100, 22)
         Me.insert_dated_picker.TabIndex = 17
@@ -233,7 +233,7 @@ Partial Class Form_orderItems
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(517, 332)
+        Me.Label8.Location = New System.Drawing.Point(504, 341)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(149, 29)
         Me.Label8.TabIndex = 18
